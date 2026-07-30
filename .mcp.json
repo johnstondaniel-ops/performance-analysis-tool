@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "relai": {
+      "args": [
+        "/Applications/relai.app/Contents/Resources/resources/mcp-server.mjs"
+      ],
+      "command": "/Applications/relai.app/Contents/Resources/resources/node",
+      "env": {
+        "RELAI_API_PORT": "49597",
+        "RELAI_PROJECT_PATH": "/Users/danieljohnston/Code/Performance Analysis Schema Mapping"
+      }
+    }
+  }
+}

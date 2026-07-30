@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-electron/
+build/icon.iconset/
+build/icon_1024.png
+.DS_Store
