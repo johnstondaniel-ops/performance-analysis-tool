@@ -31,4 +31,4 @@ jobs:
       - name: Build Electron DMG
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx electron-builder --mac --${{ matrix.arch }}
+        run: npx electron-builder --mac --arch ${{ matrix.arch }}
