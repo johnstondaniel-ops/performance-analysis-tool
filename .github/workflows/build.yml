@@ -29,11 +29,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx electron-builder --mac --arm64
 
-      - name: Publish release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release edit v${{ github.ref_name }} --draft=false || gh release edit ${{ github.ref_name }} --draft=false
-
   build-windows:
     runs-on: windows-latest
     steps:
